@@ -1,0 +1,209 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url(rainbow_bg2.webp);
+	background-attachment: fixed;
+}
+
+.aItem{
+	float: left;
+	list-style: none;
+}
+
+.botaodif{
+	border: white 1.5px solid;
+	background-color: indigo;
+	padding: 10px;
+}
+
+.botaodif:hover{
+	background-color: purple;
+	border: white 1.5px solid;
+}
+
+.aBotao{
+	margin-bottom: 10px;
+	box-sizing: content-box;
+	color: white;
+}
+
+.aBotao:hover{
+	color: white;
+}
+
+.aBotao:visited{
+	color: white;	
+}
+
+.aBranco:visited{
+	color: white;
+}
+
+.aPreto:visited{
+	color: black;
+}
+
+.copyright{
+	margin-top: 0px !important;
+}
+
+.aBranco:link{
+	margin-top: 15px;
+	color: white;
+	transition: 150ms;
+}
+
+.aPreto{
+	color: black;
+	transition: 150ms;
+}
+
+.tooltip-inner {
+  background-color: black !important;
+  /*!important is not necessary if you place custom.css at the end of your css calls. For the purpose of this demo, it seems to be required in SO snippet*/
+  color: aqua;
+}
+
+.tooltip.top .tooltip-arrow !important{
+  border-top-color:  black 
+}
+
+.tooltip.right .tooltip-arrow !important{
+  border-right-color:  black 
+}
+
+.tooltip.bottom .tooltip-arrow !important{
+  border-bottom-color:  black ;
+}
+
+.tooltip.left .tooltip-arrow !important{
+  border-left-color: black ;
+}
+
+.aBranco:hover{
+	text-shadow: 2px 0 0 aquamarine, -2px 0 0 aquamarine, 0 2px 0 aquamarine, 0 -2px 0 aquamarine, 1px 1px aquamarine, -1px -1px 0 aquamarine, 1px -1px 0 aquamarine, -1px 1px 0 aquamarine;
+	text-decoration: none;
+	color: #00a0a0;
+	border-radius: 5%;
+}
+
+.aBranco:hover .iconesRedes{
+	filter:hue-rotate(90deg);
+	border-radius: 100%;
+	box-shadow: 2px 0 0 #ede77f, -2px 0 0 #ede77f, 0 2px 0 #ede77f, 0 -2px 0 #ede77f, 1px 1px #ede77f, -1px -1px 0 #ede77f, 1px -1px 0 #ede77f, -1px 1px 0 #ede77f;
+
+}
+
+.aBranco:hover .instagram{
+	border-radius: 25% !important;
+}
+
+.aBranco:hover .github{
+	filter: invert(100%) !important;
+	box-shadow: 2px 0 0 #80002b, -2px 0 0 #80002b, 0 2px 0 #80002b, 0 -2px 0 #80002b, 1px 1px #80002b, -1px -1px 0 #80002b, 1px -1px 0 #80002b, -1px 1px 0 #80002b;
+
+}
+
+
+.aPreto:hover{
+	color: black;
+}
+
+.navMain{
+	background-color: #2a0075;
+	width: 100%;
+}
+
+.testeTexto{
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	background-color: white;
+}
+
+.divTexto{
+	background-image: linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet);
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin-left: calc(100%/2.5 - 7%);
+	margin-top: 10px;
+	box-sizing: content-box;
+	background-color: white;
+	width: calc(100%/3);
+	height: calc(100%/3);
+	border-radius: 10px;
+	border-style: solid;
+	text-overflow: fade;
+}
+
+.divdivTexto{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-sizing: content-box;
+	background-color: white;
+	border-radius: 10px;
+	border-style: solid;
+	text-overflow: fade;
+}
+
+.divdotexto:hover .testeTexto{
+	color: black;
+}
+
+.divTexto:hover{
+	background-color: white;
+	border-color: black;
+}
+
+.aIcone{
+	text-decoration: none;
+	padding: 5px;
+	color: aqua;
+	font-size: 25pt;
+	background-color: aqua;
+	border-top-right-radius:25%;
+	border-bottom-right-radius:25%;
+	text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+.aIcone:hover{
+	text-decoration: none;
+	color: aquamarine;
+	background-color: aquamarine;
+	box-shadow: 2px 2px 0px 2px black;
+}
+
+.iconesRedes{
+	width: 20px;
+	height: 20px;
+	margin-left: 2px;
+}
+
+.pontuacao{
+	color: back;
+	font-size: 20pt;
+	font-weight: bold;
+	margin-right: 10px;
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+	/*text-shadow: 5px 0px 0px #757575;*/
+}
+
+.footerTp{
+	margin-bottom: -10px;
+	height: 60px;
+	background-color: #1f0154;
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	left:0;
+}
+
